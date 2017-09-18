@@ -17,7 +17,7 @@ button.addEventListener('click', function(){
             var minute = parseInt((total - hour*3600)/60, 10)
             var second = total - hour*3600 - minute*60
 
-            timeleft.innerText = `${hour}:${minute}:${second}`
+            timeleft.innerText = hour + ':' + minute + ':' + second
         }, 1000)
         button.innerText = 'stop'
     }
