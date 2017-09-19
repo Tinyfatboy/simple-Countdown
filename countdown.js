@@ -1,6 +1,3 @@
-/**
- * Created by 小胖子 on 2017/9/18.
- */
 var button = document.querySelector('#start')
 var total = 3600*2
 var countDown = false
